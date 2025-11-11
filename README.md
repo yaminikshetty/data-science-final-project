@@ -99,7 +99,7 @@ Detected area
 4.Technologies Used
 
 TensorFlow / Keras
-MediaPipe
+MediaPipe   
 OpenCV
 NumPy / Pandas
 Matplotlib / Seaborn
