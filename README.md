@@ -14,6 +14,8 @@ ASL-Recognition-Ultra/
 └── README.md                  # Documentation file
 
 
+
+
 ⚙️ Requirements & Dependencies
 
 🧩 Required Software
@@ -21,6 +23,8 @@ ASL-Recognition-Ultra/
 Python 3.8+
 pip (Python package manager)
 Webcam (for live ASL detection)
+
+
 
 📦 Python Dependencies
 
@@ -40,11 +44,11 @@ matplotlib
 seaborn
 scikit-learn
 
-
 💡 Tip: Use a virtual environment to avoid dependency conflicts:
 
 -python -m venv venv
 -source venv/bin/activate  # on Windows: venv\Scripts\activate
+
 
 
 🧠 Dataset Details
@@ -57,6 +61,8 @@ sign_mnist_test.csv	Test images (7,172 samples, 28×28 grayscale)
 
 Note: Letters J and Z are excluded as they involve motion gestures.
 
+
+
 🧩 Model Architecture
 
 The CNN model used for classification includes:
@@ -68,6 +74,8 @@ Activation: ReLU and Softmax
 Optimizer: Adam
 Loss Function: Categorical Crossentropy
 Output Classes: 25 (A–Y)
+
+
 
 🚀 How to Run the Project
 
@@ -105,6 +113,9 @@ This script generates:
 -Class Distribution
 
 Random Sample Predictions
+
+
+
 📂 All graphs are saved in the folder:
 
 asl_graphs/
@@ -122,6 +133,8 @@ Key	Action
 q	Quit live window
 c	Print area calibration value
 
+
+
 🎥 Output Display Includes:
 
 -Detected ASL letter
@@ -129,6 +142,8 @@ c	Print area calibration value
 -ROI bounding box
 
 Hand area feedback
+
+
 
 📊 Output Examples
 
@@ -152,6 +167,8 @@ MIN_BBOX_AREA	                                     Minimum ROI size to validate 
 
 You can tweak these settings for higher stability or responsiveness.
 
+
+
 📁 Supporting Files
 
 
@@ -161,6 +178,8 @@ asl_full_pipeline.py	                      Real-time MediaPipe + CNN recognition
 graphy.py	                                    Generates analysis and visualization graphs
 sign_mnist_train.csv, sign_mnist_test.csv	                      Datasets
 improved_asl_model.h5                                     Trained CNN model file
+
+
 
 💡 Future Enhancements
 
