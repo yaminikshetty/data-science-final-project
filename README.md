@@ -1,4 +1,6 @@
 📁 Project Structure
+
+
 ASL-Recognition-Ultra/
 │
 ├── train_asl_model.py         # Trains the CNN using Sign-MNIST dataset
@@ -20,6 +22,7 @@ pip (Python package manager)
 Webcam (for live ASL detection)
 
 📦 Python Dependencies
+
 Install all dependencies using the following command:
 
 pip install -r requirements.txt
@@ -66,6 +69,7 @@ Loss Function: Categorical Crossentropy
 Output Classes: 25 (A–Y)
 
 🚀 How to Run the Project
+
 Step 1️⃣ – Train the Model
 
 #To train your CNN model using the Sign-MNIST dataset:
@@ -126,6 +130,7 @@ c	Print area calibration value
 Hand area feedback
 
 📊 Output Examples
+
 Visualization	                                                 Description
 Confusion Matrix	                             Shows classification accuracy for each letter
 Accuracy/Loss Plot	                                   Displays model learning curve
@@ -147,6 +152,8 @@ MIN_BBOX_AREA	                                     Minimum ROI size to validate 
 You can tweak these settings for higher stability or responsiveness.
 
 📁 Supporting Files
+
+
 File	                                                            Purpose
 train_asl_model.py	                              Builds, trains, and evaluates CNN model
 asl_full_pipeline.py	                      Real-time MediaPipe + CNN recognition pipeline
