@@ -15,6 +15,7 @@ ASL-Recognition-Ultra/
 
 
 ⚙️ Requirements & Dependencies
+
 🧩 Required Software
 
 Python 3.8+
